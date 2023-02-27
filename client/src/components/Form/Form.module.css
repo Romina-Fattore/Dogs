@@ -1,0 +1,338 @@
+.Form{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    background-image: url("../../assets/img/walpaper01.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-left: 10px;
+}
+
+
+
+/* --------------------------------------------------- */
+.Form__Formulario{
+    margin-top: 30px;
+    padding-top: 10px;
+    width: 50%;
+    height: 85%;
+    border-radius: 5px;
+    box-shadow: 3px 4px 5px 2px rgba(45, 14, 47, 0.582);
+    border: 1px solid black;
+    background-color: white;
+}
+
+.Form__Formulario form{
+    height: 80%;
+    width: 90%;
+    margin: auto;
+    color: white;
+    font-size: 14px;
+    color: black;
+    margin-top: 30px;
+    background-color: white;
+}
+
+
+#Titulo{
+    text-align: center;
+}
+
+/* ------------------------------------------ */
+/* Inputs */
+.Form .Form__Formulario input{
+    border: 1px solid purple;
+    outline: none;
+}
+
+
+.Raza .Titulo__Raza{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Raza .Container__Raza{
+    display: flex;
+    align-items: center;
+}
+
+.Raza .Container__Raza label{
+    margin-right: 10px;
+}
+
+.Raza .Container__Raza input{
+    padding: 3px 10px 3px 10px;
+    width: 75%;
+}
+
+.Raza .Container__Raza span{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+.Raza .Container__Raza img{
+    height: 22px;
+}
+
+/* Altura */
+
+.Altura{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+.Altura .Titulo__Altura{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Altura .Container__Alturas{
+    display: flex;
+}
+
+.Altura .Container__Alturas label{
+    margin-right: 10px;
+}
+
+.Altura .Container__Alturas input{
+    padding: 3px 10px 3px 10px;
+    border: 1px solid purple;
+    margin-right: 10px;
+}
+
+.Altura .Container__Alturas .AlturaMax{
+    width: 50%;
+}
+
+.Altura .Container__Alturas .AlturaMin{
+    width: 50%;
+}
+
+.Altura .Container__Alturas span{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+.Altura .Container__Alturas img{
+    height: 22px;
+}
+
+
+
+.Peso .Titulo__Peso{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Peso .Container__Peso{
+    display: flex;
+}
+
+.Peso .Container__Peso label{
+    margin-right: 10px;
+}
+
+
+.Peso .Container__Peso input{
+    padding: 3px 10px 3px 10px;
+    border: 1px solid purple;
+    margin-right: 10px;
+}
+
+.Peso .Container__Peso .PesoMin{
+    width: 50%;
+}
+
+.Peso .Container__Peso .PesoMax{
+    width: 50%;
+}
+
+
+
+.Edad .Titulo__Edad{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Edad .Container__Edad{
+    display: flex;
+}
+
+.Edad .Container__Edad label{
+    margin-right: 10px;
+}
+
+.Edad .Container__Edad input{
+    padding: 3px 10px 3px 10px;
+    border: 1px solid purple;
+}
+
+.Edad .Container__Edad .EdadMin{
+    width: 50%;
+}
+
+.Edad .Container__Edad .EdadMax{
+    width: 50%;
+}
+
+
+
+.Imagen .Titulo__Imagen{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Imagen .Container__Imagen{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Imagen input{
+    /* border: 1px solid black; */
+    padding: 3px 10px 3px 10px;
+    width: 90%;
+}
+
+
+
+
+.Temperamentos label{
+    margin-right: 10px;
+}
+
+.Temperamentos option, select{
+    padding: 3px 10px 3px 10px;
+    border: 1px solid purple;
+    margin-right: 30px;
+}
+
+/* Boton Enviar */
+.Boton__Enviar{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.Boton__Enviar button{
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(70, 7, 70);
+    border: 1px solid rgb(70, 7, 70);
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.Boton__Enviar button:hover{
+    background-color: rgb(192, 1, 192);
+    border: 1px solid rgb(192, 1, 192);
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+
+.Container__Error{
+    width: 90%;
+}
+
+.Container__Error span{
+    color: red;
+    font-size: 14px;
+}
+
+
+/* Card */
+.Form .Card__Formulario{
+    display: flex;
+    backdrop-filter: blur(17px);
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+.Form .Card__Formulario .Card{
+    width: 55%;
+}
+
+.Form .Card__Formulario .Lista__Temperamentos{
+    padding-top: 10px;
+    width: 40%;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.616);
+}
+
+
+/* Regresar Home */
+.Regresar__Home{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Regresar__Home span{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.Regresar__Home button{
+    padding: 3px 10px 3px 10px;
+    color: white;
+    background-color: rgb(70, 7, 70);
+    border-radius: 5px;
+    border: 1px solid rgb(70, 7, 70);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.Regresar__Home button:hover{
+    background-color: rgb(192, 1, 192);
+    border: 1px solid rgb(192, 1, 192);
+    border-radius: 5px;
+    color: white;
+}
+
+.Regresar__Home button img{
+    height: 16px;
+    width: 16px;
+    margin-left: 5px;
+}
+
+/* Ventana todo Ok */
+
+.Mensaje__Validado{
+    margin-left: 4px;
+    height: 83%;
+    width: 39%;
+    position: fixed;
+    background-image: url("https://static.wixstatic.com/media/9c5ea5_6c3424aa3cf64977a0f69931423e5013~mv2.gif");
+    background-position: center;
+    background-size: cover;
+}
+
+.Mensaje__Validado .DogCreado{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 80px;
+}
+
+.Mensaje__Validado .DogCreado span{
+    font-size: 34px;
+    font-weight: bold;
+}
